@@ -7,7 +7,7 @@ st.set_page_config(page_title="WarungAI", page_icon="🏪", layout="centered")
 
 # --- KUNCI TOKEN GEMINI ---
 # Ganti teks di bawah ini dengan API Key asli yang lo dapet tadi!
-GEMINI_API_KEY = "AQ.Ab8RN6LUqHajKnYZVLY6oaP6y3jrOqmJBkPu7HQTaLIm9dGzvw"
+GEMINI_API_KEY = GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 
 # Inisialisasi Google GenAI Client
 try:
